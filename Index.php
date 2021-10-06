@@ -15,10 +15,13 @@
                 <br>
             
                 <form action="./Gioco.php" method="POST">
-                    <h5>Inserisci il tuo numero   <input type="number" max="99" min="0" style="border-radius:  5px;" name="var">   <input type="submit" value="Tenta!" class="btn btn-primary"></h5>
-                    
-
+                    <h5>Inserisci il tuo numero   <input type="number" max="99" min="0" style="border-radius:  5px;" name="var">  
+                    <input type="submit" value="Tenta!" class="btn btn-primary"></h5>
                 </form>
+
+                <?php
+                    
+                ?>
             </div>
         </div>
     </body>
