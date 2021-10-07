@@ -32,6 +32,7 @@
                         }elseif (controllaNumero($NRand, $NUtente) == -1) { //Se -1 dice il tuo numero è troppo piccolo
                             echo "<h1>Il tuo numero è troppo piccolo</h1>
                             <h2>Riprova</h2>
+                            <h2>Tentativo n° $tentativi</h2>
                             <form action='$_SERVER[PHP_SELF]' method='POST'>
                             <input type='number' name='var'>
                             <input type='submit' value='Tenta!' >
