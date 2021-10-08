@@ -17,12 +17,13 @@
                     $NRand = rand(0, 99);
 
                 echo
-                "<form action='./Gioco.php' method='POST'>
+                "<form action='./Gioco.php' method='GET'>
                     <h5>Inserisci il tuo numero   
                     <input type='number' max='99' min='0' style='border-radius:  5px;' name='var'> 
-                    <input type='hidden' value='$NRand' name='rand'> 
+                    <input type='hidden' name='rand' value='$NRand'>
+                    <input type='hidden' value='1' name='tentativi'>
                     <input type='submit' value='Tenta!' class='btn btn-primary'></h5>
-                </form>"
+                </form>";
                 ?>
             </div>
         </div>
